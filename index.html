@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+		<title>Title Page</title>
+
+	  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	</head>
+	<body>
+		<div data-role="page" class="type-interior" id="x">
+			<h1>Landing page</h1>
+			<a href="#page?id=profile">
+				<div class="msg section-fiche section-fiche-option9"><span class="box-gloss">Messages</span><span class="value">0</span></div>
+			</a>
+		</div>
+
+		<div data-role="page" class="type-interior" id="page">
+			#page Router
+		</div>
+
+		<div data-role="page" class="type-interior" id="page1">
+			<h1>#page1 Router </h1>
+			<ul>
+				<li><a href="#page?id=dogs">Dogs</a></li>
+				<li><a href="#page?id=cats">Cats</a></li>
+
+			</ul>
+			<div class="content">Dogs Dynamic Data</div>
+		</div>
+
+
+		<div data-role="page" class="type-interior" id="page2">
+			<h1>#page2 Router </h1>
+			<ul>
+				<li><a href="#page?id=dogs">Dogs</a></li>
+				<li><a href="#page?id=cats">Cats</a></li>
+			</ul>
+			<div class="content">Cats Dynamic Data</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="https://cdn.rawgit.com/azicchetti/jquerymobile-router/master/js/jquery.mobile.router.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>
